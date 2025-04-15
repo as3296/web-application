@@ -18,4 +18,14 @@
   <build>
     <finalName>web-application</finalName>
   </build>
+  <distributionManagement>
+                        <snapshotrepository>
+                        <id>nexus-snapshots</id>
+                        <nexus-repository-url>http://35.177.27.28:8081/#admin/repository/repositories:maven-snapshots</url>
+                </snapshotrepository>
+                <repository>
+                        <id>nexus-releases</id>
+                       <url>http://35.177.27.28:8081/#admin/repository/repositories:maven-releases</url>
+                </repository>
+</distributionManagement>
 </project>
